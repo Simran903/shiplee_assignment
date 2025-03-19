@@ -1,1 +1,28 @@
+# Environment variables
 .env
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
